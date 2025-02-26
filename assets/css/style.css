@@ -308,12 +308,16 @@ main {
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
-  overflow: hidden;
   transition: var(--transition-2);
+}
+
+.sidebar::-webkit-scrollbar{
+  display: none;
 }
 
 .sidebar.active {
   max-height: 405px;
+  overflow-x: auto;
 }
 
 .sidebar-info {
@@ -1453,6 +1457,12 @@ textarea.form-input::-webkit-resizer {
  */
 
 @media (min-width: 450px) {
+  /* sidebar */
+  .sidebar {
+  overflow: hidden;
+  }
+
+
   /**
    * client
    */
