@@ -1827,6 +1827,10 @@ textarea.form-input::-webkit-resizer {
    * REUSED STYLE
    */
 
+   .sidebar {
+  overflow: visible;
+  }
+
   .sidebar,
   article {
     width: 700px;
