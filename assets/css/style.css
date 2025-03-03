@@ -285,7 +285,7 @@ article.active {
 .content-card::before {
   content: "";
   position: absolute;
-  inset: 1px;
+    inset: 1px;
   background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
@@ -1518,6 +1518,18 @@ textarea.form-input::-webkit-resizer {
 /**
  * responsive larger than 580px screen
  */
+
+@media (max-width: 579px) {
+  .sidebar {
+    max-height: 170px;
+    margin-bottom: 30px;
+  }
+
+  .sidebar.active {
+    max-height: 584px;
+  }
+}
+
 
 @media (min-width: 580px) {
   /**
