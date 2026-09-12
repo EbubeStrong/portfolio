@@ -425,7 +425,7 @@ main {
   visibility: hidden;
   transition: var(--transition-2);
   overflow-y: auto;
-  max-height: 300px;
+  max-height: 380px;
 }
 
 .sidebar.active .sidebar-info_more {
